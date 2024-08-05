@@ -1,0 +1,247 @@
+.main{
+  display: flex;
+}
+
+.oprationDiv{
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(240, 242, 244); */
+  /* background-color: #0C7579; */
+  background: linear-gradient(360deg, #ffffff, #FF7070);
+
+  width: 35%;
+  align-items: center;
+  padding: 10px;
+}
+
+.searchDiv{
+  padding: 20px;
+  border: solid;
+  border-color:rgb(196, 196, 196);
+  border-width: 1.2px;
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.searchTableHeader{
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
+  border: solid;
+  border-color:rgb(196, 196, 196);
+  border-width: 1.2px;
+  width: 89%;
+  /* background-color: rgb(240, 242, 244); */
+  background-color: whitesmoke;
+  height: 35px;
+  align-items: center;
+  display: flex;
+}
+
+.searchTableHeader h4{
+  margin-left: 30px;
+  font-family: 'Outfit';
+}
+
+.tabledropdown{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Outfit';
+}
+
+.tabledropdown select{
+  height: 42px;
+  width: 78%;
+  border-radius: 0.25rem;
+  font-family: 'Outfit';
+}
+
+.viewBtn{
+  width: 30%;
+  border-style: none;
+  height: 35px;
+  background-color: #fd8181;
+  color: white;
+  font-family: 'Outfit';
+}
+
+.addDiv{
+  padding: 20px;
+  border: solid;
+  border-color:rgb(196, 196, 196);
+  border-width: 1.2px;
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.addTableHeader{
+  margin-top: 10px;
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
+  border: solid;
+  border-color:rgb(196, 196, 196);
+  border-width: 1.2px;
+  width: 89%;
+  background-color: whitesmoke;
+  /* background-color: rgb(240, 242, 244); */
+  /* background-color: #FF7070; */
+  height: 35px;
+  align-items: center;
+  display: flex;
+}
+
+.addTableHeader h4{
+  margin-left: 30px;
+  font-family: 'Outfit'; 
+}
+
+.submitBtn{
+  width: 30%;
+  border-style: none;
+  height: 35px;
+  margin-left: 35%;
+  font-family: 'Outfit';
+  background-color: #fd8181;
+  /* background: linear-gradient(1deg, #ffffff, #da2222); */
+  color: white;
+}
+
+.countDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Outfit';
+}
+
+.countDiv input{
+  height: 38px;
+  width: 77%;
+  border-radius: 0.25rem;
+  font-family: 'Outfit';
+  border-style: solid;
+  border-width: 1.2px;
+  border-color: rgb(95, 96, 95);
+}
+
+.tableDiv{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  /* background-color: ; */
+  align-items: center;
+}
+
+.tableDiv h2, h3{
+  font-family: 'Outfit';
+
+}
+
+.elementTable{
+  font-family: 'Outfit';
+  /* background-color: rgb(240, 242, 244); */
+  /* background-color: #FF7070; */
+  background: linear-gradient(1deg, #f78f8f, #fc5a5a);
+  border-style: solid;
+  border-width: 1.2px;
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
+  border-color: #FF7070;
+  height: 45px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itemName, .countAttr, .statusAttr{
+ font-size: 15px;
+ border-style: solid;
+ border-width: 1.2px;
+ border-top: 0px;
+ border-left: 0px;
+ border-bottom: 0px;
+ /* border-color:  rgb(165, 161, 161); */
+ border-color: white;
+ /* color: rgb(79, 77, 77); */
+ color: white;
+ height: 45px;
+ display: flex;
+ width: 22.5%;
+ align-items: center;
+ justify-content: center;
+
+}
+.deleteAttr{
+  font-size: 13px;
+  color: rgb(79, 77, 77);
+  height: 45px;
+  width: 22.5%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: white;
+ /* color: rgb(79, 77, 77); */
+ color: white;
+}
+.data{
+  font-family: 'Outfit';
+  background-color: white;
+  border-style: solid;
+  border-width: 1.2px;
+  border-color: rgb(165, 161, 161);
+  /* height: 45px; */
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* max-height: 390px; Adjust the height as needed */
+  /* overflow-y: auto; */
+}
+
+
+
+.tableEntry{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+}
+
+.name, .status,.count{
+  font-size: 13px;
+  border-style: solid;
+  border-width: 1.2px;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-color:  rgb(165, 161, 161);
+  color: rgb(79, 77, 77);
+  height: 30px;
+  display: flex;
+  width: 22.5%;
+  align-items: center;
+  justify-content: center;
+}
+.deleteBtn{
+  background-color: white;
+  font-size: 13px;
+  color: rgb(79, 77, 77);
+  height: 30px;
+  display: flex;
+  width: 22.5%;
+  align-items: center;
+  justify-content: center;
+}
+.deleteBtn button{
+  background-color: white;
+  border-style: solid;
+  border-radius: 0.25rem;
+  border-width: 1.3px;
+  border-color: rgb(165, 161, 161);
+  padding: 2px 6px;
+}
